@@ -118,7 +118,7 @@ Another important task that needs to be done before any analysis can begin is re
 
 **3. Analyze the Data**
 
-The focus becomes on analyzing the spread between the two exchange datasets. The goal is to capture the arbitrage spreade between the higher-priced exchange and the lower-priced exchange. The data that is focused on are the "Close" prices of that day.
+The focus becomes on analyzing the spread between the two exchange datasets. The goal is to capture the arbitrage spread between the higher-priced exchange and the lower-priced exchange. The data that is focused on are the "Close" prices of that day.
 
 ![03_analyze close data](https://user-images.githubusercontent.com/84649228/126044074-4d3cb847-4484-4ff4-9c94-859e67b05fc7.png)
 
