@@ -87,7 +87,6 @@ The most important piece of code we need to run is the imports. Without these, n
 ![01_import](https://user-images.githubusercontent.com/84649228/126043950-a43d3c63-8054-46be-9a7c-6825b90cd56f.PNG)
 
 
-![04_Prepare_data_isnull](https://user-images.githubusercontent.com/84649228/126043975-d50a7ccb-c579-459b-9088-04383e4118aa.PNG)
 **1. Collect the Data**
 
 In this section, both datasets from Bitstamp and Coinbase are pulled and sorted by date/time with the usage of *index_col="Timestamp"*.
