@@ -56,15 +56,11 @@ conda deactive
 
 ---
 
-## Examples
+## Usage and Examples
 
 When using the file, each line of code must be individually ran to capture the data. This ensures any data that needs to be pulled gets included in future calculations as we start to build out formulas for analysis. It is important that we do not miss a line of code.
 
 To quickly execute the code, use the keyboard shortcut: Shift + Enter.
-
----
-
-## Usage
 
 To use the cryptocurrency arbitrage strategy, the repository will need to be cloned from GitHub and into a local repository.
 
