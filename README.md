@@ -58,10 +58,6 @@ conda deactive
 
 ## Usage and Examples
 
-When using the file, each line of code must be individually ran to capture the data. This ensures any data that needs to be pulled gets included in future calculations as we start to build out formulas for analysis. It is important that we do not miss a line of code.
-
-To quickly execute the code, use the keyboard shortcut: Shift + Enter.
-
 To use the cryptocurrency arbitrage strategy, the repository will need to be cloned from GitHub and into a local repository.
 
 In the crypto_arbitrage folder, you will want to use the 'crypto_arbitrage.ipynb' file. Enter into the dev environment by commanding: 
@@ -77,6 +73,10 @@ jupyter lab
 to run the file.
 
 ![opening_repo](https://user-images.githubusercontent.com/84649228/126043901-ed108223-4972-4908-a259-6213ee40405d.PNG)
+
+When using the file, each line of code must be individually ran to capture the data. This ensures any data that needs to be pulled gets included in future calculations as we start to build out formulas for analysis. It is important that we do not miss a line of code.
+
+To quickly execute the code, use the keyboard shortcut: Shift + Enter.
 
 The most important piece of code we need to run is the imports. Without these, nothing would work.
 
@@ -143,10 +143,9 @@ coinbase_sliced['Close'].plot(legend=True, figsize=(30, 20), color="orange", lab
 
 This helps visualize the spread between the two exchange datasets.
 
-
 Diving deeper, the focus turns to specific dates in order get a better idea of the data trends. The user will see individual historgrams and line graphs regarding the three time periods investigated. With the data provided by the individual time periods, the calculation of arbitrage spread begins by taking the higher-priced dataset minus the lower-priced dataset to understand the profit that could be gained or lost by the minute. From there the calculation to see what percentage of return a person could earn is computed by taking the gain (loss) and dividing it by the price of the lower-priced exchange 'close' data.
 
-Filter the data by only including the returns that give a positive return (>0), and ensuring that it meets the 1% threshold to cover cost.
+Next, filter the data by only including the returns that give a positive return (>0), and ensuring that it meets the 1% threshold to cover cost.
 
 The returns that met these requirements are then multiplied by the price of the lower-priced exchange to show what the profit would be for that day.
 
