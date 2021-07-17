@@ -97,7 +97,8 @@ In this section, both datasets from Bitstamp and Coinbase are pulled and sorted 
 
 **2. Prepare the Data**
 In order to prepare the data, the use of the functions *isnull()*, *duplicated()*, and *dropna()* were essential in providing clean data to work with. Using *isnull().mean()* or *isnull().sum()* helps to understand how much of the dataset is affected by incomplete data.
-![Uploading 04_Prepare_data_isnull.PNG…]()
+
+![04_Prepare_data_isnull](https://user-images.githubusercontent.com/84649228/126044490-67f9ebe3-655f-4989-bfcf-16882d7a8b56.PNG)
 
 
 Code used to prepare/clean the data:
